@@ -12,7 +12,7 @@ pageForm.addEventListener("submit", function (e) {
   const htmlPHovered = function () {
     const par = document.querySelector('p')
 
-    par.style = text-decoration; line-through;
+    par.style.textDecoration = "line-through"
   }
   console.log(htmlPHovered)
 
